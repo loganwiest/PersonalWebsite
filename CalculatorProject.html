@@ -1,0 +1,139 @@
+<!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Logan Wiest's Website</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>   
+      p.intro {
+        text-align: center;
+        font-size: 20px;
+        font-weight: lighter;
+      }
+      img {
+  border-radius: 3%;
+}
+      .heading {
+        font-size: 40px;
+        font-weight: lighter;
+      }
+      .my-row {
+        margin-top: 30px
+      }
+      .my-col {
+        padding-top:20px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      nav a {
+        text-decoration: none !important;
+      }  
+      .intro a {
+        margin:10px;
+      }  
+      #osulogo {
+        height: 35px;
+      } 
+      .fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 15px;
+        border-radius: 50%;
+      }
+      p.intro {
+        text-align: center;
+        font-size: 20px;
+        font-weight: lighter;
+      }
+      
+    </style>
+  </head>
+
+  <body style="background-color:#FFF8F6">
+    <!-- Set up navbar -->
+    <div class="container">  
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a href="https://cse.osu.edu" class="navbar-brand">
+                <img id="osulogo" src="BlockO.jpg" alt="">
+            </a>    
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="AEVProject.html">AEV Project</a>
+              <a class="dropdown-item" href="CalculatorProject.html">Calculator Project</a>
+              <a class="dropdown-item" href="personalWeb.html">Personal Website</a>
+          </li>
+          <li>
+            <a href="Resume.html" class="nav-link">Resume</a>
+          </li>
+          <li>
+              <a href="About.html" class="nav-link">About</a>
+            </li>
+      </ul>
+      </div>
+    </nav>
+    <!-- Set up grid -->
+    <div class="container my-container">
+        <div class="row justify-content-center my-row">  
+          <p class="heading">Calculator Project</p>
+        </div>
+        <div class="row justify-content-center my-row">  
+            <p class="intro">This was the last project completed for a core computer science class last fall, and it entailed all the concepts learned throughout the semester. The 'Reverse Polish Notation' calculator also follows some of the design principles that is allowed by Java, and all of the buttons are programmed to function with a keyboard and by physically clicking on them. To see the constraints and resources available for this project, click <a href="http://web.cse.ohio-state.edu/software/2221/web-sw1/assignments/projects/natural-number-calculator/natural-number-calculator.html">HERE</a></p>
+        </div>
+        <div class="row justify-content-center my-row">  
+          <img src="calc.jpg" alt="calc" width="400px" height="400px;">
+       </div>
+       <div class="row justify-content-center my-row">  
+        <p class="heading">Concepts Used</p>
+      </div>
+      <div class="row justify-content-center my-row">  
+        <p class="intro">This project was coded in Java using Eclipse as an IDE, which is what was used all semester. Visually, students followed Model-View-Control (MVC) principles to ensure that the program would run efficiently. For those unfamilair with MVC,it means that the model method stores data, the view method shows data, and the control method changes the visual aspect of the program based on how the data is changing. </p>
+    </div>
+    <div class="row justify-content-center my-row">  
+      <p class="heading">Main Takeaways</p>
+    </div>
+    <div class="row justify-content-center my-row">  
+      <p class="intro">This project was heavy on technical skills, so learning Graphical User Interfaces (GUI) practices was huge. GUI concepts introduced me to what some basic visual programs looked like, and sparked interest in other visual areas of computing such as web development. I also learned better communication skills because when I was stuck on problems, I would go to online resources or my roomate to try and find solutions.</p>
+  </div>
+        
+    </div>  
+      
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</html>

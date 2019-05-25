@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Logan Wiest's Website</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>  
+      p.fun {
+        margin:30px;
+        font-size: 25px;
+        font-weight: lighter;
+      }
+      .last {
+        border-radius: 50%;
+      }
+      .border {
+        border: 20px ridge #ddd;
+      }
+      .rounded {
+        border-radius: 100px;
+      }
+      .heading-row {
+        padding-top: 10px;
+      }
+      .about-row {
+        margin-top:10px;
+        margin-bottom:40px;
+        text-align: center;
+        font-size: 25px;
+      }
+      .last-row {
+        margin-top: 100px;
+        text-align: center;
+      }
+      .my-col {
+        padding-top:20px;
+        text-align: center;
+      }
+      nav a {
+        text-decoration: none !important;
+      }  
+      p.intro {
+        text-align: center;
+        font-size: 40px;
+        font-weight: lighter;
+      }
+      .intro a {
+        margin:10px;
+      }  
+      #osulogo {
+        height: 35px;
+      } 
+      .fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 60px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 15px;
+        border-radius: 50%;
+      }
+      .fa:hover {
+        opacity: .8;
+      }
+      .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      
+    </style>
+  </head>
+
+  <body style="background-color:#FFF8F6">
+    <!-- Set up navbar -->
+    <div class="container">  
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a href="https://cse.osu.edu" class="navbar-brand">
+                <img id="osulogo" src="BlockO.jpg" alt="">
+            </a>    
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="AEVProject.html">AEV Project</a>
+              <a class="dropdown-item" href="CalculatorProject.html">Calculator Project</a>
+              <a class="dropdown-item" href="personalWeb.html">Personal Website</a>
+          </li>
+          <li>
+            <a href="Resume.html" class="nav-link">Resume</a>
+          </li>
+          <li>
+              <a href="About.html" class="nav-link">About</a>
+            </li>
+      </ul>
+      </div>
+    </nav>
+    <!-- Set up grid -->
+    <div class="container my-container">
+        <div class="row justify-content-center heading-row">  
+            <h2>Hobbies and Interests</h2>
+        </div>
+        <div class="row align-items-center about-row">  
+            <div class="col">
+                <img class="rounded" src="Yosemite.jpg" alt="Yosemite" width="300px" height="375px;">
+              </div>
+              <div class="col">
+                <p class="intro"> Hiking </p>
+              </div>
+              <div class="col">
+                <img class="rounded" src="mountains.jpg" alt="Mountains" width="300px" height="375px;">
+              </div>
+        </div>
+        <div class="row align-items-center about-row">  
+          <div class="col">
+              <img class="rounded" src="Browns.jpg" alt="Browns" width="300px" height="375px;">
+            </div>
+            <div class="col">
+              <p class="intro"> Cleveland Sports </p>
+            </div>
+            <div class="col">
+              <img class="rounded" src="indians.jpg" alt="Indians" width="300px" height="375px;">
+            </div>
+      </div>
+      <div class="row justify-content-center heading-row">  
+        <h2 class="intro"> Traveling </h2>
+      </div>
+      <div class="row justify-content-center heading-row">  
+        <img  class="rounded" src="barcelona.jpg" alt="barcelona" width="900px" height="500px;">
+      </div>
+      <div class="row justify-content-center heading-row">  
+        <img  class="rounded" src="Amsterdam.jpg" alt="Amsterdam" width="900px" height="500px;">
+      </div>
+      <div class="row justify-content-center heading-row">  
+        <img  class="rounded" src="ski.jpg" alt="ski" width="900px" height="500px;">
+      </div>
+    </div>  
+    <div class="row align-items-center last-row">  
+      <div class="col">
+          <img  class="last" src="Floyd.jpg" alt="Floyd" width="120px" height="120px;">
+          <br>
+          <p class="fun"> Music </p>
+        </div>
+        <div class="col">
+          <img  class="last" src="workout.jpg" alt="workout" width="120px" height="120px;">
+          <br>
+          <p class="fun"> Training </p>
+        </div>
+      </div>
+      <div class="row align-items-center last-row">  
+        <div class="col">
+            <img  class="last" src="soccer.jpg" alt="soccer" width="120px" height="120px;">
+            <br>
+            <p class="fun"> Sports </p>
+          </div>
+          <div class="col">
+            <img  class="last" src="recycle.jpg" alt="recycle" width="120px" height="120px;">
+            <br>
+            <p class="fun"> Sustainability </p>
+          </div>
+        </div>
+        
+        
+
+      
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</html>
